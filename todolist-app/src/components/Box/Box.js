@@ -4,7 +4,7 @@ import styles from './Box.module.css';
 
 const Box = () => (
   <div className={styles.Box}>
-    Box Component
+    <p>Box Component</p>
   </div>
 );
 

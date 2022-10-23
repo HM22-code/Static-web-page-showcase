@@ -1,10 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Add-Button.module.css';
+import styles from './AddButton.module.css';
+import { TfiPlus } from 'react-icons/tfi'
 
 const AddButton = () => (
   <div className={styles.AddButton}>
-    AddButton Component
+      <button>
+        <TfiPlus />
+      </button>
   </div>
 );
 
