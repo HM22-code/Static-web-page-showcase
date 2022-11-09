@@ -1,11 +1,26 @@
 .TopBar {
-    display: flex;
-    flex-direction: row;
     border: 2px solid green;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 100px;
     right: 0;
     height: 50px;
     background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
 }
+
+.TopBar h1 a {
+    color: darkcyan;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.TopBar h1 a:hover {
+    color: rgb(0, 65, 65);
+    transition: 0.2s linear;
+}
+
