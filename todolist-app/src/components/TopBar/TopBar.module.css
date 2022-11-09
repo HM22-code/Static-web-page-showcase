@@ -1,0 +1,11 @@
+.TopBar {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: lightblue;
+}

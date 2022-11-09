@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './AddButton.module.css';
 import { TfiPlus } from 'react-icons/tfi'
 
@@ -10,9 +9,5 @@ const AddButton = () => (
       </button>
   </div>
 );
-
-AddButton.propTypes = {};
-
-AddButton.defaultProps = {};
 
 export default AddButton;
