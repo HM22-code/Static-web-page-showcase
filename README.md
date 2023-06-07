@@ -1,7 +1,3 @@
-# ToDoList
-
-a small project to discover React a front-end JavaScript library for building web user interfaces based on components.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
