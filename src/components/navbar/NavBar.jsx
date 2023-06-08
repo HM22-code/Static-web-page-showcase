@@ -31,7 +31,7 @@ function NavBar() {
 						Horaires
 					</a>
 					<a
-						className="text-slate-900 dark:text-white"
+						className="text-slate-900 dark:text-white underline decoration-emerald-600"
 						href="#Contact"
 					>
 						Contact
