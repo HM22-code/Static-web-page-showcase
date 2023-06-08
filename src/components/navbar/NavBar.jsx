@@ -9,31 +9,31 @@ function NavBar() {
 				</h1>
 				<div className="mx-auto flex flex-row justify-around gap-x-10">
 					<a
-						className="text-slate-900 dark:text-white border-b-2 border-slate-900 border-solid hover:border-emerald-600 hover:text-emerald-600"
+						className="text-slate-900 dark:text-white border-b border-slate-900 border-solid hover:border-emerald-600 hover:text-emerald-600"
 						href="#Accueil"
 					>
 						Accueil
 					</a>
 					<a
-						className="text-slate-900 dark:text-white border-b-2 border-slate-900 border-solid hover:border-emerald-600 hover:text-emerald-600"
+						className="text-slate-900 dark:text-white border-b border-slate-900 border-solid hover:border-emerald-600 hover:text-emerald-600"
 						href="#Parcours"
 					>
 						Parcours
 					</a>
 					<a
-						className="text-slate-900 dark:text-white border-b-2 border-slate-900 border-solid hover:border-emerald-600 hover:text-emerald-600"
+						className="text-slate-900 dark:text-white border-b border-slate-900 border-solid hover:border-emerald-600 hover:text-emerald-600"
 						href="#Tarifs"
 					>
 						Tarifs & Réservation
 					</a>
 					<a
-						className="text-slate-900 dark:text-white border-b-2 border-slate-900 border-solid hover:border-emerald-600 hover:text-emerald-600"
+						className="text-slate-900 dark:text-white border-b border-slate-900 border-solid hover:border-emerald-600 hover:text-emerald-600"
 						href="#Horaires"
 					>
 						Horaires
 					</a>
 					<a
-						className="text-slate-900 dark:text-white border-b-2 border-slate-900 border-solid hover:border-emerald-600 hover:text-emerald-600"
+						className="text-slate-900 dark:text-white border-b border-slate-900 border-solid hover:border-emerald-600 hover:text-emerald-600"
 						href="#Contact"
 					>
 						Contact
