@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
 	return (
-		<header className="bg-white dark:bg-slate-800">
+		<header className="bg-white dark:bg-slate-800 border-b-2 border-slate-200">
 			<nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
 				<h1 className="text-slate-900 dark:text-white font-serif text-3xl">
 					Accro'Fun
