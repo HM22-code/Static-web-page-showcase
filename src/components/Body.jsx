@@ -6,9 +6,9 @@ function Body() {
 	return (
 		<div className="dark:bg-slate-900">
 			<Banner />
-			<section>
+			<section id="Accueil">
 				<div className="m-10 flex flex-col rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
-					<div className="flex flex-col justify-around">
+					<div className="flex flex-col justify-around p-10">
 						<h1 className="font-serif text-3xl dark:text-white">
 							Venez vous amuser sur notre site d'accrobranche!
 						</h1>
@@ -29,13 +29,13 @@ function Body() {
 						className="rounded-r-xl"
 						loading="lazy"
 						src="./assets/img/home.jpg"
-						alt=""
+						alt="home"
 					/>
 				</div>
 			</section>
 			<hr />
-			<section>
-				<div className="">
+			<section id="Parcours">
+				<div className="m-10">
 					<h1 className="font-serif text-3xl text-slate-900 dark:text-white">
 						Parcours
 					</h1>
@@ -80,7 +80,7 @@ function Body() {
 				</div>
 			</section>
 			<hr />
-			<section>
+			<section id="Tarifs">
 				<div className="">
 					<h1 className="font-serif text-3xl text-slate-900 dark:text-white">
 						Tarifs & Réservation
@@ -90,7 +90,7 @@ function Body() {
 							className="rounded-l-xl"
 							loading="lazy"
 							src="./assets/img/parkour.jpg"
-							alt=""
+							alt="parkour"
 						/>
 						<table className="h-full w-full">
 							<tr>
@@ -153,7 +153,7 @@ function Body() {
 				</div>
 			</section>
 			<hr />
-			<section>
+			<section id="Horaires">
 				<div className="">
 					<h1 className="font-serif text-3xl text-slate-900 dark:text-white">
 						Horaires
@@ -175,7 +175,7 @@ function Body() {
 				</div>
 			</section>
 			<hr />
-			<section>
+			<section id="Contact">
 				<div className="">
 					<h1 className="font-serif text-3xl text-slate-900 dark:text-white">
 						Contact
@@ -259,7 +259,10 @@ function Body() {
 								required
 							/>
 							<label className="dark:text-white">
-								Accepter les <p>Mentions légales</p>
+								Accepter les
+								<p className="text-emerald-600">
+									Mentions légales
+								</p>
 							</label>
 						</div>
 						<button className="dark:text-white" type="submit">
