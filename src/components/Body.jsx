@@ -29,17 +29,16 @@ function Body() {
 						className="w-px-100 h-80 rounded-r-xl"
 						loading="lazy"
 						src="./assets/img/home.jpg"
-						alt="home"
+						alt="Home"
 					/>
 				</div>
 			</section>
-			<hr />
 			<section id="Parcours">
 				<div className="">
-					<h1 className="font-serif text-3xl text-slate-900 dark:text-white">
-						Parcours
+					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+						🍃Parcours🍃
 					</h1>
-					<div className="m-10 flex flex-col justify-evenly md:flex-row">
+					<div className="flex flex-col justify-evenly md:flex-row">
 						<div className="m-5 h-full w-full rounded-xl p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
 							<h3 className="dark:text-white">Partie enfant</h3>
 							<p className="dark:text-white">
@@ -79,18 +78,17 @@ function Body() {
 					</div>
 				</div>
 			</section>
-			<hr />
 			<section id="Tarifs">
 				<div className="">
-					<h1 className="font-serif text-3xl text-slate-900 dark:text-white">
-						Tarifs & Réservation
+					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+						🍃Tarifs & Réservation🍃
 					</h1>
-					<div className="m-10 flex flex-col rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
+					<div className="m-5 flex flex-col rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
 						<img
-							className="rounded-l-xl"
+							className="w-px-100 h-80 rounded-l-xl"
 							loading="lazy"
 							src="./assets/img/parkour.jpg"
-							alt="parkour"
+							alt="Parkour"
 						/>
 						<table className="h-full w-full">
 							<tr>
@@ -152,36 +150,33 @@ function Body() {
 					</div>
 				</div>
 			</section>
-			<hr />
 			<section id="Horaires">
 				<div className="">
-					<h1 className="font-serif text-3xl text-slate-900 dark:text-white">
-						Horaires
+					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+						🍃Horaires🍃
 					</h1>
 
-					<div className="m-10 rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
-						<p className="dark:text-white">
+					<div className="m-5 rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
+						<p className="text-justify dark:text-white">
 							Nous sommes ouverts toute l'année, du Lundi au
 							Dimanche (hormis de Novembre à Février) selon les
 							horaires suivants :
 						</p>
-						<p className="dark:text-white">
+						<p className="text-justify dark:text-white">
 							- Du Lundi au Vendredi : de 10h à 19h
 						</p>
-						<p className="dark:text-white">
+						<p className="text-justify dark:text-white">
 							- Le week-end de 10h à 21h
 						</p>
 					</div>
 				</div>
 			</section>
-			<hr />
 			<section id="Contact">
 				<div className="">
-					<h1 className="font-serif text-3xl text-slate-900 dark:text-white">
-						Contact
+					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+						🍃Contact🍃
 					</h1>
-					<div className="m-10 rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
-						<div className="dark:text-white">Carte</div>
+					<div className="m-5 flex flex-row rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
 						<div className="">
 							<h2 className="dark:text-white">Adresse</h2>
 							<p className="dark:text-white">
@@ -201,56 +196,79 @@ function Body() {
 							<h2 className="dark:text-white">Téléphone</h2>
 							<p className="dark:text-white">09 08 07 06 05</p>
 						</div>
+						<div className="dark:text-white">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16460.89380939658!2d4.100411825758484!3d47.27124466924508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1687766276487!5m2!1sfr!2sfr"
+								width="400"
+								height="300"
+								title="carte"
+								className="b-0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
 					</div>
 				</div>
 			</section>
-			<hr />
 			<section>
-				<div className="ml-10 mr-10 mt-10 rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
+				<div className="ml-5 mr-5 mt-10 rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
 					<h3 className="font-serif text-3xl dark:text-white">
 						Vous souhaitez réserver?
 					</h3>
 					<h4 className="font-serif text-2xl dark:text-white">
 						Contactez-nous
 					</h4>
-					<form method="post">
-						<input
-							type="text"
-							name="nom"
-							placeholder="Entrer votre nom..."
-							required
-						/>
-						<input
-							type="text"
-							name="prenom"
-							placeholder="Entrer votre prénom..."
-							required
-						/>
-						<input
-							type="email"
-							name="email"
-							placeholder="Entrer votre email..."
-							required
-						/>
-						<input
-							type="tel"
-							name="telephone"
-							placeholder="Entrer votre numéro de téléphone..."
-							required
-						/>
-						<input
-							type="date"
-							name="date"
-							placeholder="Entrer le jour..."
-							required
-						/>
-						<input
-							type="time"
-							name="time"
-							placeholder="Entrer votre horaire..."
-							required
-						/>
-						<div class="lien">
+					<form method="post" className="m-10 flex flex-col">
+						<div className="flex flex-row justify-center">
+							<input
+								type="text"
+								name="nom"
+								placeholder="Entrer votre nom..."
+								className="w-full"
+								required
+							/>
+							<input
+								type="text"
+								name="prenom"
+								placeholder="Entrer votre prénom..."
+								className="w-full"
+								required
+							/>
+						</div>
+						<div className="flex flex-row justify-center">
+							<input
+								type="email"
+								name="email"
+								placeholder="Entrer votre email..."
+								className="w-full"
+								required
+							/>
+							<input
+								type="tel"
+								name="telephone"
+								placeholder="Entrer votre numéro de téléphone..."
+								className="w-full"
+								required
+							/>
+						</div>
+						<div className="flex flex-row justify-center">
+							<input
+								type="date"
+								name="date"
+								placeholder="Entrer le jour..."
+								className="w-full"
+								required
+							/>
+							<input
+								type="time"
+								name="time"
+								placeholder="Entrer votre horaire..."
+								className="w-full"
+								required
+							/>
+						</div>
+						<div className="flex flex-row">
 							<input
 								type="checkbox"
 								name="lien"
@@ -258,16 +276,21 @@ function Body() {
 								value="lien"
 								required
 							/>
-							<label className="dark:text-white">
-								Accepter les
-								<p className="text-emerald-600">
+							<label className="flex flex-row dark:text-white">
+								<p className="pl-2">Accepter les</p>
+								<p className="pl-1 text-emerald-600">
 									Mentions légales
 								</p>
 							</label>
 						</div>
-						<button className="dark:text-white" type="submit">
-							Réserver
-						</button>
+						<div className="justify-center">
+							<button
+								className="w-20 rounded-md bg-emerald-600 text-white dark:text-white"
+								type="submit"
+							>
+								Réserver
+							</button>
+						</div>
 					</form>
 				</div>
 			</section>

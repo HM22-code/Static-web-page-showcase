@@ -5,7 +5,7 @@ function NavBar() {
 		<header className="border-b-2 border-slate-200 bg-white dark:border-slate-600 dark:bg-slate-800">
 			<nav className="mx-auto flex max-w-7xl flex-col items-center justify-between p-6 md:flex-row lg:px-8">
 				<h1 className="pb-0 font-serif text-3xl text-slate-900 dark:text-white sm:pb-4 md:pb-0">
-					Accro'Fun
+					🍃Accro'Fun🍃
 				</h1>
 				<div className="mx-auto hidden flex-col justify-center gap-x-5 text-base sm:visible sm:flex sm:flex-row sm:gap-y-2 sm:text-sm md:text-base  lg:gap-x-10">
 					<a
