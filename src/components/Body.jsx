@@ -176,7 +176,7 @@ function Body() {
 					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
 						🍃Contact🍃
 					</h1>
-					<div className="m-5 flex flex-row rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
+					<div className="m-5 flex flex-col rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
 						<div className="">
 							<h2 className="dark:text-white">Adresse</h2>
 							<p className="dark:text-white">
@@ -202,7 +202,7 @@ function Body() {
 								width="400"
 								height="300"
 								title="carte"
-								className="b-0"
+								className="b-0 hidden md:flex"
 								allowfullscreen=""
 								loading="lazy"
 								referrerpolicy="no-referrer-when-downgrade"
