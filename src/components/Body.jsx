@@ -7,7 +7,7 @@ function Body() {
 		<div className="dark:bg-slate-900">
 			<Banner />
 			<section id="Accueil" className="pb-10">
-				<div className="flex flex-col rounded-xl pt-10 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
+				<div className="m-5 flex flex-col rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
 					<div className="flex flex-col justify-around p-10">
 						<h1 className="font-serif text-3xl dark:text-white">
 							Venez vous amuser sur notre site d'accrobranche!
@@ -39,41 +39,51 @@ function Body() {
 						🍃Parcours🍃
 					</h1>
 					<div className="flex flex-col justify-evenly md:flex-row">
-						<div className="m-5 h-full w-full rounded-xl p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
-							<h3 className="dark:text-white">Partie enfant</h3>
-							<p className="dark:text-white">
+						<div className="m-5 h-full w-full rounded-xl border border-slate-200 p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
+							<h3 className="pb-2 text-xl dark:text-white">
+								Partie enfant
+							</h3>
+							<p className="text-justify text-base dark:text-white">
 								✓ Dès 3 ans (jusqu'à 12 ans)
 							</p>
-							<p className="dark:text-white">
+							<p className="text-justify text-base dark:text-white">
 								✓ 1,5km de parcours de 1 à 8 mètres de hauteur
 							</p>
-							<p className="dark:text-white">
+							<p className="text-justify text-base dark:text-white">
 								✓ 500 mètres de tyrolienne
 							</p>
-							<p className="dark:text-white">✓ 16 parcours</p>
-							<p className="dark:text-white">
+							<p className="text-justify text-base dark:text-white">
+								✓ 16 parcours
+							</p>
+							<p className="text-justify text-base dark:text-white">
 								✓ 3 niveaux (blanc-vert-bleu)
 							</p>
-							<p className="dark:text-white">✓ 10 tyroliennes</p>
+							<p className="text-justify text-base dark:text-white">
+								✓ 10 tyroliennes
+							</p>
 						</div>
-						<div className="m-5 h-full w-full rounded-xl p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
-							<h3 className="dark:text-white">
+						<div className="m-5 h-full w-full rounded-xl border border-slate-200 p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
+							<h3 className="pb-2 text-xl dark:text-white">
 								Partie ado/adulte
 							</h3>
-							<p className="dark:text-white">
+							<p className="text-justify text-base dark:text-white">
 								✓ Adolescents et adultes (dès 10 ans)
 							</p>
-							<p className="dark:text-white">
+							<p className="text-justify text-base dark:text-white">
 								✓ 6km de parcours de 3 à 25 mètres de hauteur
 							</p>
-							<p className="dark:text-white">
+							<p className="text-justify text-base dark:text-white">
 								✓ 2km de tyrolienne
 							</p>
-							<p className="dark:text-white">✓ 21 parcours</p>
-							<p className="dark:text-white">
+							<p className="text-justify text-base dark:text-white">
+								✓ 21 parcours
+							</p>
+							<p className="text-justify text-base dark:text-white">
 								✓ 4 niveaux (vert-bleu-rouge-noir)
 							</p>
-							<p className="dark:text-white">✓ 40 tyroliennes</p>
+							<p className="text-justify text-base dark:text-white">
+								✓ 40 tyroliennes
+							</p>
 						</div>
 					</div>
 				</div>
@@ -83,68 +93,82 @@ function Body() {
 					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
 						🍃Tarifs & Réservation🍃
 					</h1>
-					<div className="m-5 flex flex-col rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
+					<div className="m-5 flex flex-col rounded-l-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
 						<img
 							className="w-px-100 h-80 rounded-l-xl"
 							loading="lazy"
 							src="./assets/img/parkour.jpg"
 							alt="Parkour"
 						/>
-						<table className="h-full w-full">
-							<tr>
-								<th className="dark:text-white">Forfaits</th>
-								<th className="dark:text-white">Description</th>
-								<th className="dark:text-white">Prix</th>
+						<table className="h-full w-full border border-slate-300">
+							<tr className="border border-slate-300">
+								<th className="border border-slate-300 dark:text-white">
+									Forfaits
+								</th>
+								<th className="border border-slate-300 dark:text-white">
+									Description
+								</th>
+								<th className="border border-slate-300 dark:text-white">
+									Prix
+								</th>
 							</tr>
-							<tr>
-								<td className="dark:text-white">Enfant</td>
-								<td>
-									<p className="dark:text-white">
+							<tr className="border border-slate-300">
+								<td className="border border-slate-300 dark:text-white">
+									Enfant
+								</td>
+								<td className="border border-slate-300">
+									<p className="text-justify text-base dark:text-white">
 										✓ Dès 3 ans (jusqu'à 12 ans)
 									</p>
-									<p className="dark:text-white">
+									<p className="text-justify text-base dark:text-white">
 										✓ 1,5km de parcours de 1 à 8 mètres de
 										hauteur
 									</p>
-									<p className="dark:text-white">
+									<p className="text-justify text-base dark:text-white">
 										✓ 500 mètres de tyrolienne
 									</p>
-									<p className="dark:text-white">
+									<p className="text-justify text-base dark:text-white">
 										✓ 16 parcours
 									</p>
-									<p className="dark:text-white">
+									<p className="text-justify text-base dark:text-white">
 										✓ 3 niveaux (blanc-vert-bleu)
 									</p>
-									<p className="dark:text-white">
+									<p className="text-justify text-base dark:text-white">
 										✓ 10 tyroliennes
 									</p>
 								</td>
-								<td className="dark:text-white">8€</td>
+								<td className="border border-slate-300 dark:text-white">
+									8€
+								</td>
 							</tr>
-							<tr>
-								<td className="dark:text-white">Ado/Adulte</td>
-								<td>
-									<p className="dark:text-white">
+							<tr className="border border-slate-300">
+								<td className="border border-slate-300 dark:text-white">
+									Ado/Adulte
+								</td>
+								<td className="border border-slate-300">
+									<p className="text-justify text-base dark:text-white">
 										✓ Adolescents et adultes (dès 10 ans)
 									</p>
-									<p className="dark:text-white">
+									<p className="text-justify text-base dark:text-white">
 										✓ 6km de parcours de 3 à 25 mètres de
 										hauteur
 									</p>
-									<p className="dark:text-white">
+									<p className="text-justify text-base dark:text-white">
 										✓ 2km de tyrolienne
 									</p>
-									<p className="dark:text-white">
+									<p className="text-justify text-base dark:text-white">
 										✓ 21 parcours
 									</p>
-									<p className="dark:text-white">
+									<p className="text-justify text-base dark:text-white">
 										✓ 4 niveaux (vert-bleu-rouge-noir)
 									</p>
-									<p className="dark:text-white">
+									<p className="text-justify text-base dark:text-white">
 										✓ 40 tyroliennes
 									</p>
 								</td>
-								<td className="dark:text-white">14€</td>
+								<td className="border border-slate-300 dark:text-white">
+									14€
+								</td>
 							</tr>
 						</table>
 					</div>
@@ -156,16 +180,16 @@ function Body() {
 						🍃Horaires🍃
 					</h1>
 
-					<div className="m-5 rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
-						<p className="text-justify dark:text-white">
+					<div className="m-5 rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
+						<p className="text-justify text-base dark:text-white">
 							Nous sommes ouverts toute l'année, du Lundi au
 							Dimanche (hormis de Novembre à Février) selon les
 							horaires suivants :
 						</p>
-						<p className="text-justify dark:text-white">
+						<p className="text-justify text-base dark:text-white">
 							- Du Lundi au Vendredi : de 10h à 19h
 						</p>
-						<p className="text-justify dark:text-white">
+						<p className="text-justify text-base dark:text-white">
 							- Le week-end de 10h à 21h
 						</p>
 					</div>
@@ -176,27 +200,33 @@ function Body() {
 					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
 						🍃Contact🍃
 					</h1>
-					<div className="m-5 flex flex-col rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
+					<div className="m-5 flex flex-col rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
 						<div className="">
-							<h2 className="dark:text-white">Adresse</h2>
-							<p className="dark:text-white">
+							<h2 className="text-justify text-xl dark:text-white">
+								Adresse
+							</h2>
+							<p className="text-justify text-base dark:text-white">
 								Venez nous rejoindre dans le cadre idyllique au
-								sein du parc naturel régional du Morvan.
-							</p>
-							<p className="dark:text-white">
-								Nous nous situons au bord de l'étang Taureau, à
+								sein du parc naturel régional du Morvan. Nous
+								nous situons au bord de l'étang Taureau, à
 								quelques mètres du centre de la commune de
 								Saint-Brisson, un petit village au coeur du
 								Morvan.
 							</p>
-							<h2 className="dark:text-white">Email</h2>
-							<p className="dark:text-white">
+							<h2 className="text-justify text-xl dark:text-white">
+								Email
+							</h2>
+							<p className="text-justify text-base dark:text-white">
 								accrofun@gmail.com
 							</p>
-							<h2 className="dark:text-white">Téléphone</h2>
-							<p className="dark:text-white">09 08 07 06 05</p>
+							<h2 className="text-justify text-xl dark:text-white">
+								Téléphone
+							</h2>
+							<p className="text-justify text-base dark:text-white">
+								09 08 07 06 05
+							</p>
 						</div>
-						<div className="dark:text-white">
+						<div>
 							<iframe
 								src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16460.89380939658!2d4.100411825758484!3d47.27124466924508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1687766276487!5m2!1sfr!2sfr"
 								width="400"
@@ -212,7 +242,7 @@ function Body() {
 				</div>
 			</section>
 			<section>
-				<div className="ml-5 mr-5 mt-10 rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
+				<div className="ml-5 mr-5 mt-10 rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
 					<h3 className="font-serif text-3xl dark:text-white">
 						Vous souhaitez réserver?
 					</h3>
