@@ -6,8 +6,8 @@ function Body() {
 	return (
 		<div className="dark:bg-slate-900">
 			<Banner />
-			<section id="Accueil">
-				<div className="m-10 flex flex-col rounded-xl shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
+			<section id="Accueil" className="pb-10">
+				<div className="flex flex-col rounded-xl pt-10 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
 					<div className="flex flex-col justify-around p-10">
 						<h1 className="font-serif text-3xl dark:text-white">
 							Venez vous amuser sur notre site d'accrobranche!
@@ -26,7 +26,7 @@ function Body() {
 						</p>
 					</div>
 					<img
-						className="rounded-r-xl"
+						className="w-px-100 h-80 rounded-r-xl"
 						loading="lazy"
 						src="./assets/img/home.jpg"
 						alt="home"
@@ -35,7 +35,7 @@ function Body() {
 			</section>
 			<hr />
 			<section id="Parcours">
-				<div className="m-10">
+				<div className="">
 					<h1 className="font-serif text-3xl text-slate-900 dark:text-white">
 						Parcours
 					</h1>
