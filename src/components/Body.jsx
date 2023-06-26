@@ -25,21 +25,23 @@ function Body() {
 							adulte!
 						</p>
 					</div>
-					<img
-						className="w-px-100 h-80 rounded-r-xl"
-						loading="lazy"
-						src="./assets/img/home.jpg"
-						alt="Home"
-					/>
+					<div>
+						<img
+							className="h-full w-full rounded-r-xl object-cover"
+							loading="lazy"
+							src="./assets/img/home.jpg"
+							alt="Home"
+						/>
+					</div>
 				</div>
 			</section>
 			<section id="Parcours">
 				<div className="">
-					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+					<h1 className="border-y border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
 						🍃Parcours🍃
 					</h1>
 					<div className="flex flex-col justify-evenly md:flex-row">
-						<div className="m-5 h-full w-full rounded-xl border border-slate-200 p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
+						<div className="h-full w-full rounded-xl border border-slate-200 p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:m-5">
 							<h3 className="pb-2 text-xl dark:text-white">
 								Partie enfant
 							</h3>
@@ -62,7 +64,7 @@ function Body() {
 								✓ 10 tyroliennes
 							</p>
 						</div>
-						<div className="m-5 h-full w-full rounded-xl border border-slate-200 p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
+						<div className="h-full w-full rounded-xl border border-slate-200 p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:m-5">
 							<h3 className="pb-2 text-xl dark:text-white">
 								Partie ado/adulte
 							</h3>
@@ -90,93 +92,98 @@ function Body() {
 			</section>
 			<section id="Tarifs">
 				<div className="">
-					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+					<h1 className="border-y border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
 						🍃Tarifs & Réservation🍃
 					</h1>
 					<div className="m-5 flex flex-col rounded-l-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
-						<img
-							className="w-px-100 h-80 rounded-l-xl"
-							loading="lazy"
-							src="./assets/img/parkour.jpg"
-							alt="Parkour"
-						/>
-						<table className="h-full w-full border border-slate-300">
-							<tr className="border border-slate-300">
-								<th className="border border-slate-300 dark:text-white">
-									Forfaits
-								</th>
-								<th className="border border-slate-300 dark:text-white">
-									Description
-								</th>
-								<th className="border border-slate-300 dark:text-white">
-									Prix
-								</th>
-							</tr>
-							<tr className="border border-slate-300">
-								<td className="border border-slate-300 dark:text-white">
-									Enfant
-								</td>
-								<td className="border border-slate-300">
-									<p className="text-justify text-base dark:text-white">
-										✓ Dès 3 ans (jusqu'à 12 ans)
-									</p>
-									<p className="text-justify text-base dark:text-white">
-										✓ 1,5km de parcours de 1 à 8 mètres de
-										hauteur
-									</p>
-									<p className="text-justify text-base dark:text-white">
-										✓ 500 mètres de tyrolienne
-									</p>
-									<p className="text-justify text-base dark:text-white">
-										✓ 16 parcours
-									</p>
-									<p className="text-justify text-base dark:text-white">
-										✓ 3 niveaux (blanc-vert-bleu)
-									</p>
-									<p className="text-justify text-base dark:text-white">
-										✓ 10 tyroliennes
-									</p>
-								</td>
-								<td className="border border-slate-300 dark:text-white">
-									8€
-								</td>
-							</tr>
-							<tr className="border border-slate-300">
-								<td className="border border-slate-300 dark:text-white">
-									Ado/Adulte
-								</td>
-								<td className="border border-slate-300">
-									<p className="text-justify text-base dark:text-white">
-										✓ Adolescents et adultes (dès 10 ans)
-									</p>
-									<p className="text-justify text-base dark:text-white">
-										✓ 6km de parcours de 3 à 25 mètres de
-										hauteur
-									</p>
-									<p className="text-justify text-base dark:text-white">
-										✓ 2km de tyrolienne
-									</p>
-									<p className="text-justify text-base dark:text-white">
-										✓ 21 parcours
-									</p>
-									<p className="text-justify text-base dark:text-white">
-										✓ 4 niveaux (vert-bleu-rouge-noir)
-									</p>
-									<p className="text-justify text-base dark:text-white">
-										✓ 40 tyroliennes
-									</p>
-								</td>
-								<td className="border border-slate-300 dark:text-white">
-									14€
-								</td>
-							</tr>
-						</table>
+						<div>
+							<img
+								className="h-full w-full rounded-l-xl object-cover"
+								loading="lazy"
+								src="./assets/img/parkour.jpg"
+								alt="Parkour"
+							/>
+						</div>
+						<div className="">
+							<table className="h-full w-full border border-slate-300">
+								<tr className="border border-slate-300">
+									<th className="border border-slate-300 dark:text-white">
+										Forfaits
+									</th>
+									<th className="border border-slate-300 dark:text-white">
+										Description
+									</th>
+									<th className="border border-slate-300 dark:text-white">
+										Prix
+									</th>
+								</tr>
+								<tr className="border border-slate-300">
+									<td className="border border-slate-300 dark:text-white">
+										Enfant
+									</td>
+									<td className="border border-slate-300">
+										<p className="text-justify text-base dark:text-white">
+											✓ Dès 3 ans (jusqu'à 12 ans)
+										</p>
+										<p className="text-justify text-base dark:text-white">
+											✓ 1,5km de parcours de 1 à 8 mètres
+											de hauteur
+										</p>
+										<p className="text-justify text-base dark:text-white">
+											✓ 500 mètres de tyrolienne
+										</p>
+										<p className="text-justify text-base dark:text-white">
+											✓ 16 parcours
+										</p>
+										<p className="text-justify text-base dark:text-white">
+											✓ 3 niveaux (blanc-vert-bleu)
+										</p>
+										<p className="text-justify text-base dark:text-white">
+											✓ 10 tyroliennes
+										</p>
+									</td>
+									<td className="border border-slate-300 dark:text-white">
+										8€
+									</td>
+								</tr>
+								<tr className="border border-slate-300">
+									<td className="border border-slate-300 dark:text-white">
+										Ado/Adulte
+									</td>
+									<td className="border border-slate-300">
+										<p className="text-justify text-base dark:text-white">
+											✓ Adolescents et adultes (dès 10
+											ans)
+										</p>
+										<p className="text-justify text-base dark:text-white">
+											✓ 6km de parcours de 3 à 25 mètres
+											de hauteur
+										</p>
+										<p className="text-justify text-base dark:text-white">
+											✓ 2km de tyrolienne
+										</p>
+										<p className="text-justify text-base dark:text-white">
+											✓ 21 parcours
+										</p>
+										<p className="text-justify text-base dark:text-white">
+											✓ 4 niveaux (vert-bleu-rouge-noir)
+										</p>
+										<p className="text-justify text-base dark:text-white">
+											✓ 40 tyroliennes
+										</p>
+									</td>
+									<td className="border border-slate-300 dark:text-white">
+										14€
+									</td>
+								</tr>
+							</table>
+						</div>
 					</div>
 				</div>
 			</section>
 			<section id="Horaires">
 				<div className="">
-					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+					<h1 className="border-y border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
 						🍃Horaires🍃
 					</h1>
 
@@ -197,7 +204,7 @@ function Body() {
 			</section>
 			<section id="Contact">
 				<div className="">
-					<h1 className="border border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+					<h1 className="border-y border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
 						🍃Contact🍃
 					</h1>
 					<div className="m-5 flex flex-col rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
