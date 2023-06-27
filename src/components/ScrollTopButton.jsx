@@ -11,7 +11,7 @@ function ScrollTopButton() {
 
 	return (
 		<div
-			className="fixed bottom-10 right-14 flex h-12 w-12 cursor-pointer justify-center rounded-full bg-white align-middle hover:bg-slate-300 dark:bg-white"
+			className="fixed bottom-5 right-5 flex h-12 w-12 cursor-pointer justify-center rounded-full bg-white align-middle hover:bg-slate-300 dark:bg-white"
 			onClick={scrollUp}
 		>
 			<img src="./assets/svg/arrow-up.svg" alt="Arrow-up icon" />
