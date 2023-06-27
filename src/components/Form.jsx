@@ -4,14 +4,14 @@ function Form() {
 	return (
 		<section>
 			<div className="mb-5 ml-5 mr-5 mt-10 rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
-				<h3 className="m-5 font-serif text-3xl dark:text-white">
+				<h3 className="mt-5 font-serif text-3xl dark:text-white">
 					Vous souhaitez réserver?
 				</h3>
 				<h4 className="font-serif text-2xl dark:text-white">
 					Contactez-nous
 				</h4>
 				<form method="post" className="m-10 flex flex-col p-5">
-					<div className="flex flex-row justify-center">
+					<div className="flex flex-col justify-center md:flex-row">
 						<input
 							type="text"
 							name="nom"
@@ -27,7 +27,7 @@ function Form() {
 							required
 						/>
 					</div>
-					<div className="flex flex-row justify-center">
+					<div className="flex flex-col justify-center md:flex-row">
 						<input
 							type="email"
 							name="email"
@@ -43,7 +43,7 @@ function Form() {
 							required
 						/>
 					</div>
-					<div className="flex flex-row justify-center">
+					<div className="flex flex-col justify-center md:flex-row">
 						<input
 							type="date"
 							name="date"
@@ -68,10 +68,14 @@ function Form() {
 							required
 						/>
 						<label className="flex flex-row dark:text-white">
-							<p className="pl-2">Accepter les</p>
-							<p className="pl-1 text-emerald-600">
-								Mentions légales
-							</p>
+							<div className="flex flex-col pl-2">
+								<p className=" text-xs md:text-base">
+									Accepter les
+								</p>
+								<p className="text-xs text-emerald-600 md:text-base">
+									Mentions légales
+								</p>
+							</div>
 						</label>
 					</div>
 					<div className="m-5 justify-center">
