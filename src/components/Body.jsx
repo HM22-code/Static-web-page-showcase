@@ -1,13 +1,14 @@
 import React from "react";
 import Banner from "./Banner";
 import ScrollTopButton from "./ScrollTopButton";
+import { Carousel } from "@material-tailwind/react";
 
 function Body() {
 	return (
 		<div className="dark:bg-slate-900">
 			<Banner />
 			<section id="Accueil" className="pb-10">
-				<div className="m-5 flex flex-col rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
+				<div className="border-slate-200 dark:bg-slate-800 dark:shadow-slate-800 m-5 flex h-fit flex-col rounded-xl border shadow-xl md:h-96 md:flex-row">
 					<div className="flex flex-col justify-around p-10">
 						<h1 className="font-serif text-3xl dark:text-white">
 							Venez vous amuser sur notre site d'accrobranche!
@@ -25,23 +26,34 @@ function Body() {
 							adulte!
 						</p>
 					</div>
-					<div>
-						<img
-							className="h-full w-full rounded-r-xl object-cover"
-							loading="lazy"
-							src="./assets/img/home.jpg"
-							alt="Home"
-						/>
+					<div className="">
+						<Carousel className="rounded-xl object-cover">
+							<img
+								src="assets/img/zipline.jpg"
+								alt="Zipline"
+								className="h-full w-full object-cover"
+							/>
+							<img
+								src="assets/img/parkour.jpg"
+								alt="Parkour"
+								className="h-full w-full object-cover"
+							/>
+							<img
+								src="assets/img/home.jpg"
+								alt="Home"
+								className="h-full w-full object-cover"
+							/>
+						</Carousel>
 					</div>
 				</div>
 			</section>
 			<section id="Parcours">
 				<div className="">
-					<h1 className="border-y border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+					<h1 className="border-emerald-600 text-slate-900 shadow-emerald-600 border-y font-serif text-3xl shadow dark:text-white">
 						🍃Parcours🍃
 					</h1>
-					<div className="flex flex-col justify-evenly md:flex-row">
-						<div className="h-full w-full rounded-xl border border-slate-200 p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:m-5">
+					<div className="flex flex-col justify-evenly p-5 md:flex-row">
+						<div className="border-slate-200 dark:bg-slate-800 dark:shadow-slate-800 h-full w-full rounded-xl border p-5 shadow-xl md:m-5">
 							<h3 className="pb-2 text-xl dark:text-white">
 								Partie enfant
 							</h3>
@@ -64,7 +76,7 @@ function Body() {
 								✓ 10 tyroliennes
 							</p>
 						</div>
-						<div className="h-full w-full rounded-xl border border-slate-200 p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:m-5">
+						<div className="border-slate-200 dark:bg-slate-800 dark:shadow-slate-800 h-full w-full rounded-xl border p-5 shadow-xl md:m-5">
 							<h3 className="pb-2 text-xl dark:text-white">
 								Partie ado/adulte
 							</h3>
@@ -92,36 +104,28 @@ function Body() {
 			</section>
 			<section id="Tarifs">
 				<div className="">
-					<h1 className="border-y border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+					<h1 className="border-emerald-600 text-slate-900 shadow-emerald-600 border-y font-serif text-3xl shadow dark:text-white">
 						🍃Tarifs & Réservation🍃
 					</h1>
-					<div className="m-5 flex flex-col rounded-l-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
-						<div>
-							<img
-								className="h-full w-full rounded-l-xl object-cover"
-								loading="lazy"
-								src="./assets/img/parkour.jpg"
-								alt="Parkour"
-							/>
-						</div>
-						<div className="">
-							<table className="h-full w-full border border-slate-300">
-								<tr className="border border-slate-300">
-									<th className="border border-slate-300 dark:text-white">
+					<div className="border-slate-200 dark:bg-slate-800 dark:shadow-slate-800 m-5 flex flex-col rounded-l-xl border shadow-xl md:flex-row">
+						<div className="h-full w-full">
+							<table className="border-slate-300 h-full w-full border">
+								<tr className="border-slate-300 border">
+									<th className="border-slate-300 border dark:text-white">
 										Forfaits
 									</th>
-									<th className="border border-slate-300 dark:text-white">
+									<th className="border-slate-300 border dark:text-white">
 										Description
 									</th>
-									<th className="border border-slate-300 dark:text-white">
+									<th className="border-slate-300 border dark:text-white">
 										Prix
 									</th>
 								</tr>
-								<tr className="border border-slate-300">
-									<td className="border border-slate-300 dark:text-white">
+								<tr className="border-slate-300 border">
+									<td className="border-slate-300 border dark:text-white">
 										Enfant
 									</td>
-									<td className="border border-slate-300">
+									<td className="border-slate-300 border">
 										<p className="text-justify text-base dark:text-white">
 											✓ Dès 3 ans (jusqu'à 12 ans)
 										</p>
@@ -142,15 +146,15 @@ function Body() {
 											✓ 10 tyroliennes
 										</p>
 									</td>
-									<td className="border border-slate-300 dark:text-white">
+									<td className="border-slate-300 border dark:text-white">
 										8€
 									</td>
 								</tr>
-								<tr className="border border-slate-300">
-									<td className="border border-slate-300 dark:text-white">
+								<tr className="border-slate-300 border">
+									<td className="border-slate-300 border dark:text-white">
 										Ado/Adulte
 									</td>
-									<td className="border border-slate-300">
+									<td className="border-slate-300 border">
 										<p className="text-justify text-base dark:text-white">
 											✓ Adolescents et adultes (dès 10
 											ans)
@@ -172,7 +176,7 @@ function Body() {
 											✓ 40 tyroliennes
 										</p>
 									</td>
-									<td className="border border-slate-300 dark:text-white">
+									<td className="border-slate-300 border dark:text-white">
 										14€
 									</td>
 								</tr>
@@ -183,31 +187,45 @@ function Body() {
 			</section>
 			<section id="Horaires">
 				<div className="">
-					<h1 className="border-y border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+					<h1 className="border-emerald-600 text-slate-900 shadow-emerald-600 border-y font-serif text-3xl shadow dark:text-white">
 						🍃Horaires🍃
 					</h1>
 
-					<div className="m-5 rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
-						<p className="text-justify text-base dark:text-white">
-							Nous sommes ouverts toute l'année, du Lundi au
-							Dimanche (hormis de Novembre à Février) selon les
-							horaires suivants :
-						</p>
-						<p className="text-justify text-base dark:text-white">
-							- Du Lundi au Vendredi : de 10h à 19h
-						</p>
-						<p className="text-justify text-base dark:text-white">
-							- Le week-end de 10h à 21h
-						</p>
+					<div className="border-slate-200 dark:bg-slate-800 dark:shadow-slate-800 m-5 flex flex-col rounded-xl border shadow-xl md:flex-row">
+						<div>
+							<p className="text-justify text-base dark:text-white">
+								Nous sommes ouverts toute l'année, du Lundi au
+								Dimanche (hormis de Novembre à Février) selon
+								les horaires suivants :
+							</p>
+							<p className="text-justify text-base dark:text-white">
+								- Du Lundi au Vendredi : de 10h à 19h
+							</p>
+							<p className="text-justify text-base dark:text-white">
+								- Le week-end de 10h à 21h
+							</p>
+						</div>
 					</div>
 				</div>
 			</section>
 			<section id="Contact">
 				<div className="">
-					<h1 className="border-y border-emerald-600 font-serif text-3xl text-slate-900 shadow shadow-emerald-600 dark:text-white">
+					<h1 className="border-emerald-600 text-slate-900 shadow-emerald-600 border-y font-serif text-3xl shadow dark:text-white">
 						🍃Contact🍃
 					</h1>
-					<div className="m-5 flex flex-col rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
+					<div className="border-slate-200 dark:bg-slate-800 dark:shadow-slate-800 m-5 flex flex-col rounded-xl border shadow-xl md:flex-row">
+						<div>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16460.89380939658!2d4.100411825758484!3d47.27124466924508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1687766276487!5m2!1sfr!2sfr"
+								width="400"
+								height="300"
+								title="carte"
+								className="b-0 hidden md:flex"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
 						<div className="">
 							<h2 className="text-justify text-xl dark:text-white">
 								Adresse
@@ -233,23 +251,11 @@ function Body() {
 								09 08 07 06 05
 							</p>
 						</div>
-						<div>
-							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16460.89380939658!2d4.100411825758484!3d47.27124466924508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1687766276487!5m2!1sfr!2sfr"
-								width="400"
-								height="300"
-								title="carte"
-								className="b-0 hidden md:flex"
-								allowfullscreen=""
-								loading="lazy"
-								referrerpolicy="no-referrer-when-downgrade"
-							></iframe>
-						</div>
 					</div>
 				</div>
 			</section>
 			<section>
-				<div className="ml-5 mr-5 mt-10 rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
+				<div className="border-slate-200 dark:bg-slate-800 dark:shadow-slate-800 ml-5 mr-5 mt-10 rounded-xl border shadow-xl">
 					<h3 className="font-serif text-3xl dark:text-white">
 						Vous souhaitez réserver?
 					</h3>
@@ -315,14 +321,14 @@ function Body() {
 							/>
 							<label className="flex flex-row dark:text-white">
 								<p className="pl-2">Accepter les</p>
-								<p className="pl-1 text-emerald-600">
+								<p className="text-emerald-600 pl-1">
 									Mentions légales
 								</p>
 							</label>
 						</div>
 						<div className="justify-center">
 							<button
-								className="w-20 rounded-md bg-emerald-600 text-white dark:text-white"
+								className="bg-emerald-600 w-20 rounded-md text-white dark:text-white"
 								type="submit"
 							>
 								Réserver
