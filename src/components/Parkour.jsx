@@ -7,7 +7,7 @@ function Parkour() {
 		<section id="Parcours">
 			<div className="">
 				<h1 className="border-y border-emerald-600 font-serif text-xl text-slate-900 shadow shadow-emerald-600 dark:text-white sm:text-3xl">
-					🍃Parcours🍃
+					🍃 Parcours 🍃
 				</h1>
 				<div className="flex flex-col justify-center p-5 align-middle">
 					<Carousel className="h-full w-full" dynamicHeight>

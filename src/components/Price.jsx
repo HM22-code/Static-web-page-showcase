@@ -5,7 +5,7 @@ function Price() {
 		<section id="Tarifs">
 			<div className="">
 				<h1 className="border-y border-emerald-600 font-serif text-xl text-slate-900 shadow shadow-emerald-600 dark:text-white sm:text-3xl">
-					🍃Tarifs & Réservation🍃
+					🍃 Tarifs & Réservation 🍃
 				</h1>
 				<div className="m-5 flex flex-col border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
 					<div className="h-full w-full">
