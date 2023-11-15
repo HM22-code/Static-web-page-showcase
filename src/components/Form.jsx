@@ -2,7 +2,11 @@ import React from "react";
 
 function Form() {
 	return (
-		<section>
+		<section
+			data-aos="fade-up"
+			data-aos-easing="linear"
+			data-aos-duration="1500"
+		>
 			<div className="mb-5 ml-5 mr-5 mt-10 rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
 				<h3 className="mt-5 font-serif text-3xl dark:text-white">
 					Vous souhaitez réserver?

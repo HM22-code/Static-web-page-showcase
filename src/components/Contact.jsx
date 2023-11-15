@@ -2,7 +2,12 @@ import React from "react";
 
 function Contact() {
 	return (
-		<section id="Contact">
+		<section
+			id="Contact"
+			data-aos="fade-up"
+			data-aos-easing="linear"
+			data-aos-duration="1500"
+		>
 			<div className="">
 				<h1 className="border-y border-emerald-600 font-serif text-xl  text-slate-900 shadow shadow-emerald-600 dark:text-white sm:text-3xl">
 					🍃 Contact 🍃

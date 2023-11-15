@@ -2,7 +2,13 @@ import React from "react";
 
 function Home() {
 	return (
-		<section id="Accueil" className="pb-10">
+		<section
+			id="Accueil"
+			className="pb-10"
+			data-aos="fade-up"
+			data-aos-easing="linear"
+			data-aos-duration="1500"
+		>
 			<div className="m-5 flex flex-col rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 xl:flex-row">
 				<div className="flex flex-col justify-around p-10">
 					<h1 className="font-serif text-3xl dark:text-white">
