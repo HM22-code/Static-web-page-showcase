@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a298fbb.css",
+    "main.js": "/static/js/main.88ffb536.js",
+    "static/js/787.58687ba0.chunk.js": "/static/js/787.58687ba0.chunk.js",
+    "static/media/wood-bark.jpg": "/static/media/wood-bark.fc1a9f9f1e76e1a8b1bf.jpg",
+    "index.html": "/index.html",
+    "main.1a298fbb.css.map": "/static/css/main.1a298fbb.css.map",
+    "main.88ffb536.js.map": "/static/js/main.88ffb536.js.map",
+    "787.58687ba0.chunk.js.map": "/static/js/787.58687ba0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a298fbb.css",
+    "static/js/main.88ffb536.js"
+  ]
+}
