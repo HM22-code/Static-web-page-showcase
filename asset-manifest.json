@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static-web-page-showcase/static/css/main.c2a44e56.css",
-    "main.js": "/static-web-page-showcase/static/js/main.7a529ebc.js",
+    "main.css": "/static-web-page-showcase/static/css/main.4e4fbbd0.css",
+    "main.js": "/static-web-page-showcase/static/js/main.95147135.js",
     "static/js/787.58687ba0.chunk.js": "/static-web-page-showcase/static/js/787.58687ba0.chunk.js",
     "static/media/wood-bark.jpg": "/static-web-page-showcase/static/media/wood-bark.fc1a9f9f1e76e1a8b1bf.jpg",
     "index.html": "/static-web-page-showcase/index.html",
-    "main.c2a44e56.css.map": "/static-web-page-showcase/static/css/main.c2a44e56.css.map",
-    "main.7a529ebc.js.map": "/static-web-page-showcase/static/js/main.7a529ebc.js.map",
+    "main.4e4fbbd0.css.map": "/static-web-page-showcase/static/css/main.4e4fbbd0.css.map",
+    "main.95147135.js.map": "/static-web-page-showcase/static/js/main.95147135.js.map",
     "787.58687ba0.chunk.js.map": "/static-web-page-showcase/static/js/787.58687ba0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2a44e56.css",
-    "static/js/main.7a529ebc.js"
+    "static/css/main.4e4fbbd0.css",
+    "static/js/main.95147135.js"
   ]
 }
