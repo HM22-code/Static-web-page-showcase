@@ -9,9 +9,11 @@ function Contact() {
 			data-aos-duration="1500"
 		>
 			<div className="">
-				<h1 className="border-y border-emerald-600 font-serif text-xl  text-slate-900 shadow shadow-emerald-600 dark:text-white sm:text-3xl">
-					🍃 Contact 🍃
-				</h1>
+				<span className="flex items-center">
+					<span className="h-px flex-1 bg-black"></span>
+					<span className="shrink-0 px-6">Contact</span>
+					<span className="h-px flex-1 bg-black"></span>
+				</span>
 				<div className="m-5 flex flex-col rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
 					<div>
 						<iframe
@@ -22,7 +24,7 @@ function Contact() {
 							className="b-0 hidden md:flex"
 							allowfullscreen=""
 							loading="lazy"
-							referrerpolicy="no-referrer-when-downgrade"
+							referrerPolicy="no-referrer-when-downgrade"
 						></iframe>
 					</div>
 					<div className="p-5">

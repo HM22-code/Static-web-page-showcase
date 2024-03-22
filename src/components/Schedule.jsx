@@ -9,10 +9,11 @@ function Schedule() {
 			data-aos-duration="1500"
 		>
 			<div className="">
-				<h1 className="border-y border-emerald-600 font-serif text-xl  text-slate-900 shadow shadow-emerald-600 dark:text-white sm:text-3xl">
-					🍃 Horaires 🍃
-				</h1>
-
+				<span className="flex items-center">
+					<span className="h-px flex-1 bg-black"></span>
+					<span className="shrink-0 px-6">Horaires</span>
+					<span className="h-px flex-1 bg-black"></span>
+				</span>
 				<div className="m-5 flex flex-col rounded-xl border border-slate-200 p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
 					<p className="text-justify text-base dark:text-white">
 						Nous sommes ouverts toute l'année, du Lundi au Dimanche

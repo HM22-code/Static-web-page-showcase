@@ -19,14 +19,14 @@ function Form() {
 						<input
 							type="text"
 							name="nom"
-							placeholder="Entrer votre nom..."
+							placeholder="Nom"
 							className="m-5 w-full"
 							required
 						/>
 						<input
 							type="text"
 							name="prenom"
-							placeholder="Entrer votre prénom..."
+							placeholder="Prénom"
 							className="m-5 w-full"
 							required
 						/>
@@ -35,14 +35,14 @@ function Form() {
 						<input
 							type="email"
 							name="email"
-							placeholder="Entrer votre email..."
+							placeholder="Email"
 							className="m-5 w-full"
 							required
 						/>
 						<input
 							type="tel"
 							name="telephone"
-							placeholder="Entrer votre numéro de téléphone..."
+							placeholder="Numéro de téléphone"
 							className="m-5 w-full"
 							required
 						/>
@@ -51,14 +51,14 @@ function Form() {
 						<input
 							type="date"
 							name="date"
-							placeholder="Entrer le jour..."
+							placeholder="Jour"
 							className="m-5 w-full"
 							required
 						/>
 						<input
 							type="time"
 							name="time"
-							placeholder="Entrer votre horaire..."
+							placeholder="Horaire"
 							className="m-5 w-full"
 							required
 						/>
@@ -71,7 +71,7 @@ function Form() {
 							value="lien"
 							required
 						/>
-						<label className="flex flex-row dark:text-white">
+						<span className="flex flex-row dark:text-white">
 							<div className="flex flex-col pl-2">
 								<p className=" text-xs md:text-base">
 									Accepter les
@@ -80,7 +80,7 @@ function Form() {
 									Mentions légales
 								</p>
 							</div>
-						</label>
+						</span>
 					</div>
 					<div className="m-5 justify-center">
 						<button

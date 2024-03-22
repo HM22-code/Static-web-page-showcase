@@ -11,9 +11,6 @@ function Parkour() {
 			data-aos-duration="1500"
 		>
 			<div className="">
-				<h1 className="border-y border-emerald-600 font-serif text-xl text-slate-900 shadow shadow-emerald-600 dark:text-white sm:text-3xl">
-					🍃 Parcours 🍃
-				</h1>
 				<div className="flex flex-col justify-center p-5 align-middle">
 					<Carousel className="h-full w-full" dynamicHeight>
 						<div>
@@ -39,7 +36,12 @@ function Parkour() {
 						</div>
 					</Carousel>
 				</div>
-				<div className="flex flex-col justify-evenly p-5 md:flex-row">
+				<span className="flex items-center">
+					<span className="h-px flex-1 bg-black"></span>
+					<span className="shrink-0 px-6">Parcours</span>
+					<span className="h-px flex-1 bg-black"></span>
+				</span>
+				<div className="flex flex-col space-y-5 p-5 md:flex-row">
 					<div className="h-full w-full rounded-xl border border-slate-200 p-5 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:m-5">
 						<h3 className="pb-2 text-xl underline dark:text-white">
 							Partie enfant
