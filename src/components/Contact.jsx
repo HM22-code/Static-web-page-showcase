@@ -29,6 +29,20 @@ function Contact() {
 					</div>
 					<div className="p-5">
 						<h2 className="text-justify text-xl underline dark:text-white">
+							Horaires
+						</h2>
+						<p className="text-justify text-base dark:text-white">
+							Nous sommes ouverts toute l'année, du Lundi au Dimanche
+							(hormis de Novembre à Février) selon les horaires
+							suivants :
+						</p>
+						<p className="text-justify text-base dark:text-white">
+							- Du Lundi au Vendredi : de 10h à 19h
+						</p>
+						<p className="text-justify text-base dark:text-white">
+							- Le week-end de 10h à 21h
+						</p>
+						<h2 className="text-justify text-xl underline dark:text-white">
 							Adresse
 						</h2>
 						<p className="text-justify text-base dark:text-white">

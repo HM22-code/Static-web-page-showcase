@@ -4,7 +4,6 @@ import ScrollTopButton from "./ScrollTopButton";
 import Home from "./Home";
 import Parkour from "./Parkour";
 import Price from "./Price";
-import Schedule from "./Schedule";
 import Contact from "./Contact";
 import Form from "./Form";
 
@@ -15,7 +14,6 @@ function Body() {
 			<Home />
 			<Parkour />
 			<Price />
-			<Schedule />
 			<Contact />
 			<Form />
 			<ScrollTopButton />
