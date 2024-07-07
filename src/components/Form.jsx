@@ -9,7 +9,7 @@ function Form() {
 		>
 			<div className="mb-5 ml-5 mr-5 mt-10 rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800">
 				<h3 className="mt-5 font-serif text-3xl dark:text-white">
-					Vous souhaitez réserver?
+					Vous souhaitez réserver ?
 				</h3>
 				<h4 className="font-serif text-2xl dark:text-white">
 					Contactez-nous

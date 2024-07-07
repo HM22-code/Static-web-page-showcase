@@ -6,7 +6,7 @@ function Banner() {
 			<h1 className="hidden shadow-inner font-serif text-4xl text-white sm:block">
 				Accro'Fun
 			</h1>
-			<h2 className="text-lg shadow-inner text-white">Ça vous branche?</h2>
+			<h2 className="text-lg shadow-inner text-white">Ça vous branche ?</h2>
 		</div>
 	);
 }
