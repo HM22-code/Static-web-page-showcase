@@ -1,4 +1,5 @@
 import React from "react";
+import parkour from "../assets/img/parkour.jpg";
 
 function Contact() {
 	return (
@@ -16,16 +17,11 @@ function Contact() {
 				</span>
 				<div className="m-5 flex flex-col rounded-xl border border-slate-200 shadow-xl dark:bg-slate-800 dark:shadow-slate-800 md:flex-row">
 					<div>
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16460.89380939658!2d4.100411825758484!3d47.27124466924508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1687766276487!5m2!1sfr!2sfr"
-							width="400"
-							height="300"
-							title="carte"
-							className="b-0 hidden md:flex"
-							allowFullScreen={false}
-							loading="lazy"
-							referrerPolicy="no-referrer-when-downgrade"
-						></iframe>
+						<img
+							src={parkour}
+							alt="Parkour"
+							className="h-80 w-full object-cover"
+						/>
 					</div>
 					<div className="p-5">
 						<h2 className="text-justify text-xl underline dark:text-white">
