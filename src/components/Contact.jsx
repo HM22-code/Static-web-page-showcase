@@ -22,7 +22,7 @@ function Contact() {
 							height="300"
 							title="carte"
 							className="b-0 hidden md:flex"
-							allowfullscreen=""
+							allowFullScreen={false}
 							loading="lazy"
 							referrerPolicy="no-referrer-when-downgrade"
 						></iframe>
