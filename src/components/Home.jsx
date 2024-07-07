@@ -1,4 +1,5 @@
 import React from "react";
+import zipline from "../assets/img/zipline.jpg";
 
 function Home() {
 	return (
@@ -28,7 +29,7 @@ function Home() {
 				</div>
 				<div className="h-full w-full">
 					<img
-						src="assets/img/zipline.jpg"
+						src={zipline}
 						alt="Zipline"
 						className="h-auto max-w-full object-cover"
 					/>

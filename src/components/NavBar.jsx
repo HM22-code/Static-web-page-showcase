@@ -1,4 +1,5 @@
 import React from "react";
+import leaf from "../assets/img/leaf.png";
 
 function NavBar() {
 	return (
@@ -8,7 +9,7 @@ function NavBar() {
 					<img
 						className="h-10 w-10 rounded-l-xl object-cover pr-2"
 						loading="lazy"
-						src="./assets/img/leaf.png"
+						src={leaf}
 						alt="Leaf" /> Accro'Fun
 				</h1>
 				<div className="mx-auto hidden flex-col justify-center gap-x-5 text-base sm:visible sm:flex sm:flex-row sm:gap-y-2 sm:text-sm md:text-base  lg:gap-x-10">

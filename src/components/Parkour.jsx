@@ -1,6 +1,9 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import parkour from "../assets/img/parkour.jpg";
+import zipline from "../assets/img/zipline.jpg";
+import home from "../assets/img/home.jpg";
 
 function Parkour() {
 	return (
@@ -15,21 +18,21 @@ function Parkour() {
 					<Carousel className="h-full w-full" dynamicHeight>
 						<div>
 							<img
-								src="assets/img/parkour.jpg"
+								src={parkour}
 								alt="Parkour"
 								className="h-full w-full object-cover"
 							/>
 						</div>
 						<div>
 							<img
-								src="assets/img/zipline.jpg"
+								src={zipline}
 								alt="Zipline"
 								className="h-full w-full object-cover"
 							/>
 						</div>
 						<div>
 							<img
-								src="assets/img/home.jpg"
+								src={home}
 								alt="Home"
 								className="h-full w-full object-cover"
 							/>

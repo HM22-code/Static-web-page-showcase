@@ -5,10 +5,11 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				"wood-bark": "url('../public/assets/img/wood-bark.jpg')",
+				"wood-bark": "url('./assets/img/wood-bark.jpg')",
 			},
 		},
 	},
 	plugins: [],
+	/* media */
 	darkMode: "class",
 };
