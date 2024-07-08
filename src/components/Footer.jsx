@@ -15,7 +15,7 @@ function Footer() {
                             <a href="#" class="hover:underline me-4 md:me-6">Parcours</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline me-4 md:me-6">Tarifs & Réservation</a>
+                            <a href="#" class="hover:underline me-4 md:me-6">Tarifs</a>
                         </li>
                         <li>
                             <a href="#" class="hover:underline me-4 md:me-6">Actualités</a>
