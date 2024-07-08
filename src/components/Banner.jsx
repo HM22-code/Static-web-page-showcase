@@ -4,10 +4,10 @@ function Banner() {
 	return (
 		<div class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
 			<div class="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
-				<div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"></div>
+				<div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#2a4120] to-[#cadb3a] opacity-30"></div>
 			</div>
 			<div class="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
-				<div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"></div>
+				<div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#2a4120] to-[#cadb3a] opacity-30"></div>
 			</div>
 			<div class="flex flex-wrap items-center gap-x-4 gap-y-2">
 				<p class="text-sm leading-6 text-gray-900">
