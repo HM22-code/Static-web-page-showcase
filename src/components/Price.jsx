@@ -61,7 +61,7 @@ function Price() {
 											<span class="text-5xl font-bold tracking-tight text-gray-900 dark:text-white">20€</span>
 											<span class="text-sm font-semibold leading-6 tracking-wide text-gray-600 dark:text-gray-300">EUR</span>
 										</p>
-										<a href="#" class="mt-10 block w-full rounded-md bg-[#49a010] px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#49a010]">Réserver</a>
+										<a href="#" class="mt-10 block w-full rounded-md bg-[#49a010] px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#49a010] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#49a010]">Réserver</a>
 										<p class="mt-6 text-xs leading-5 text-gray-600 dark:text-gray-300">Lorem ipsum dolor sit amet consect etur adipisicing elit.</p>
 									</div>
 								</div>
@@ -111,7 +111,7 @@ function Price() {
 											<span class="text-5xl font-bold tracking-tight text-gray-900 dark:text-white">15€</span>
 											<span class="text-sm font-semibold leading-6 tracking-wide text-gray-600 dark:text-gray-300">EUR</span>
 										</p>
-										<a href="#" class="mt-10 block w-full rounded-md bg-[#49a010] px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#49a010]">Get access</a>
+										<a href="#" class="mt-10 block w-full rounded-md bg-[#49a010] px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#49a010] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#49a010]">Réserver</a>
 										<p class="mt-6 text-xs leading-5 text-gray-600 dark:text-gray-300">Lorem ipsum dolor sit amet consect etur adipisicing elit.</p>
 									</div>
 								</div>
