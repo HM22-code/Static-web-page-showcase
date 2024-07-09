@@ -8,7 +8,7 @@ import home from "../assets/img/home.jpg";
 function Container() {
 	return (
 		<div 
-			className="flex flex-col justify-center p-5 align-middle"
+			className="flex flex-col justify-center align-middle"
 			data-aos="fade-up"
 			data-aos-easing="linear"
 			data-aos-duration="1500"

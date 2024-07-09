@@ -4,7 +4,7 @@ function Home() {
 	return (
 		<section
 			id="Accueil"
-			className="pb-10"
+			className=""
 		>
 			<div class="bg-wood-bark-dark relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
 				<div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">

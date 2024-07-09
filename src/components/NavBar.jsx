@@ -8,8 +8,8 @@ function NavBar() {
 				<nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
 					<div class="flex lg:flex-1">
 						<a href="" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-							<img src={leaf} class="h-8" alt="Acro'Fun Logo"/>
-							<span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Acro'Fun</span>
+							<img src={leaf} class="h-8" alt="Accro'Fun Logo"/>
+							<span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Accro'Fun</span>
 						</a>
 					</div>
 					<div class="hidden lg:flex lg:gap-x-12">
@@ -31,7 +31,7 @@ function NavBar() {
 						<h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Ça vous branche ?</h1>
 						<p class="mt-6 text-lg leading-8 text-gray-300">Venez vous amuser sur notre site d'accrobranche !</p>
 						<div class="mt-10 flex items-center justify-center gap-x-6">
-							<a href="#" class="rounded-md bg-[#49a010] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#90ff47]  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Nous contacter</a>
+							<a href="#" class="rounded-md bg-[#49a010] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#90ff47]  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#90ff47]">Nous contacter</a>
 							<a href="#" class="text-sm font-semibold leading-6 text-white hover:text-gray-300">En savoir +</a>
 						</div>
 					</div>
