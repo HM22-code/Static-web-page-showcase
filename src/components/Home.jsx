@@ -1,6 +1,4 @@
 import React from "react";
-import zipline from "../assets/img/zipline.jpg";
-import woodbark from "../assets/img/wood-bark.jpg";
 
 function Home() {
 	return (
@@ -8,8 +6,7 @@ function Home() {
 			id="Accueil"
 			className="pb-10"
 		>
-			<div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-				<img src={woodbark} alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"/>
+			<div class="bg-wood-bark-dark relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
 				<div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
 					<div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#2a4120] to-[#cadb3a] opacity-20" ></div>
 				</div>

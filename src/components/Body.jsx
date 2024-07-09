@@ -14,8 +14,8 @@ function Body() {
 		<div className="dark:bg-slate-900">
 			<Banner/>
 			<Home/>
-			<Parkour/>
 			<Container/>
+			<Parkour/>
 			<Price/>
 			<Blog/>
 			<Contact/>

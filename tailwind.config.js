@@ -5,8 +5,8 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				"wood-bark": "url('./assets/img/wood-bark.jpg')",
-				"zipline": "url('./assets/img/zipline.jpg')",
+				"wood-bark-dark": "url('./assets/img/wood-bark-dark.png')",
+				"zipline-dark": "url('./assets/img/zipline-dark.png')",
 			},
 		},
 	},
