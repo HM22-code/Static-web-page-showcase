@@ -8,34 +8,36 @@ import home from "../assets/img/home.jpg";
 function Container() {
 	return (
 		<div 
-			className="flex flex-col justify-center align-middle"
+			className="flex flex-row justify-center align-middle"
 			data-aos="fade-up"
 			data-aos-easing="linear"
 			data-aos-duration="1500"
 		>
-			<Carousel className="h-full w-full" dynamicHeight>
-				<div>
-					<img
-						src={parkour}
-						alt="Parkour"
-						className="h-full w-full object-cover"
-					/>
-				</div>
-				<div>
-					<img
-						src={zipline}
-						alt="Zipline"
-						className="h-full w-full object-cover"
-					/>
-				</div>
-				<div>
-					<img
-						src={home}
-						alt="Home"
-						className="h-full w-full object-cover"
-					/>
-				</div>
-			</Carousel>
+			<div class="h-3/4 w-3/4">
+				<Carousel className="h-full w-full" dynamicHeight>
+					<div>
+						<img
+							src={parkour}
+							alt="Parkour"
+							className="h-full w-full object-cover"
+						/>
+					</div>
+					<div>
+						<img
+							src={zipline}
+							alt="Zipline"
+							className="h-full w-full object-cover"
+						/>
+					</div>
+					<div>
+						<img
+							src={home}
+							alt="Home"
+							className="h-full w-full object-cover"
+						/>
+					</div>
+				</Carousel>
+			</div>
 		</div>
 	);
 }

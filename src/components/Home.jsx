@@ -4,7 +4,7 @@ function Home() {
 	return (
 		<section
 			id="Accueil"
-			className=""
+			className="shadow-md shadow-black mb-5"
 		>
 			<div class="bg-wood-bark-dark relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
 				<div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
@@ -18,7 +18,7 @@ function Home() {
 						<h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Parcours</h2>
 						<p class="mt-6 text-lg leading-8 text-gray-300">Avec nos 50 tyroliennes dont 3 géantes de plus de 500 mètres, affrontez vos peurs et sautez dans le vide ! Des parcours avec divers niveaux de difficulté, des parcours d'1 mètre à 25 mètres de hauteur, il y en a pour tout le monde notamment grâce à une partie enfant et une partie adulte !</p>
 					</div>
-					<div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+					<div class="border-t border-gray-200 mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
 						<dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
 							<div class="flex flex-col-reverse">
 								<dt class="text-base leading-7 text-gray-300">Parcours</dt>

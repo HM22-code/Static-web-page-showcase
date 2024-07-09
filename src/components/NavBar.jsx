@@ -1,5 +1,6 @@
 import React from "react";
 import leaf from "../assets/img/leaf.png";
+import { FaPhoneAlt, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 function NavBar() {
 	return (
@@ -13,12 +14,15 @@ function NavBar() {
 						</a>
 					</div>
 					<div class="hidden lg:flex lg:gap-x-12">
-						<a href="#" class="text-sm font-semibold leading-6 text-white hover:text-gray-300">Parcours</a>
-						<a href="#" class="text-sm font-semibold leading-6 text-white hover:text-gray-300">Tarifs</a>
-						<a href="#" class="text-sm font-semibold leading-6 text-white hover:text-gray-300">Actualités</a>
-						<a href="#" class="text-sm font-semibold leading-6 text-white hover:text-gray-300">Contact</a>
+						<a href="#Accueil" class="text-sm font-semibold leading-6 text-white hover:text-gray-300">Parcours</a>
+						<a href="#Tarifs" class="text-sm font-semibold leading-6 text-white hover:text-gray-300">Tarifs</a>
+						<a href="#Actualites" class="text-sm font-semibold leading-6 text-white hover:text-gray-300">Actualités</a>
+						<a href="#Contact" class="text-sm font-semibold leading-6 text-white hover:text-gray-300">Contact</a>
 					</div>
-					<div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
+					<div class="shrink px-0.5 lg:px-2 flex flex-1 justify-end"><a href="tel:+33000000000" class="flex flex-row justify-between align-middle rounded-md bg-[#49a010] px-1 py-1 lg:px-2 lg:py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#90ff47]  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#90ff47]"><FaPhoneAlt class="lg:m-1 lg:mr-2"/><p class="hidden lg:flex">00 00 00 00 00</p></a></div>
+					<div class="shrink px-0.5 lg:px-2 flex justify-end"><a href="#" class="rounded-md bg-[#49a010] px-1 py-1 lg:px-2 lg:py-2  text-sm font-semibold text-white shadow-sm hover:bg-[#90ff47]  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#90ff47]"><FaFacebookF class="lg:m-1"/></a></div>
+					<div class="shrink px-0.5 lg:px-2 flex justify-end"><a href="#" class="rounded-md bg-[#49a010] px-1 py-1 lg:px-2 lg:py-2  text-sm font-semibold text-white shadow-sm hover:bg-[#90ff47]  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#90ff47]"><FaInstagram class="lg:m-1"/></a></div>
+					<div class="shrink pl-0.5 lg:pl-2 flex justify-end"><a href="#" class="rounded-md bg-[#49a010] px-1 py-1 lg:px-2 lg:py-2  text-sm font-semibold text-white shadow-sm hover:bg-[#90ff47]  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#90ff47]"><FaLinkedinIn class="lg:m-1"/></a></div>
 				</nav>
 			</header>
 			<div class="relative isolate px-6 pt-14 lg:px-8">

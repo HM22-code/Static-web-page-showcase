@@ -12,16 +12,16 @@ function Footer() {
                     </a>
                     <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
-                            <a href="#" class="hover:underline me-4 md:me-6">Parcours</a>
+                            <a href="#Accueil" class="hover:underline me-4 md:me-6">Parcours</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline me-4 md:me-6">Tarifs</a>
+                            <a href="#Tarifs" class="hover:underline me-4 md:me-6">Tarifs</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline me-4 md:me-6">Actualités</a>
+                            <a href="#Actualites" class="hover:underline me-4 md:me-6">Actualités</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Contact</a>
+                            <a href="#Contact" class="hover:underline">Contact</a>
                         </li>
                     </ul>
                 </div>
