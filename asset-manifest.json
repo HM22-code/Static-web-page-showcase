@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static-web-page-showcase/static/css/main.1c3755ba.css",
-    "main.js": "/static-web-page-showcase/static/js/main.b49c1645.js",
+    "main.css": "/static-web-page-showcase/static/css/main.3bd94b78.css",
+    "main.js": "/static-web-page-showcase/static/js/main.d89dd290.js",
     "static/js/787.58687ba0.chunk.js": "/static-web-page-showcase/static/js/787.58687ba0.chunk.js",
     "static/media/zipline-dark.png": "/static-web-page-showcase/static/media/zipline-dark.13c0241073fe14d6b998.png",
     "static/media/wood-bark-dark.png": "/static-web-page-showcase/static/media/wood-bark-dark.a45718fff95dcfff518a.png",
@@ -11,12 +11,12 @@
     "static/media/leaf.png": "/static-web-page-showcase/static/media/leaf.1077255421aeb852342c.png",
     "index.html": "/static-web-page-showcase/index.html",
     "static/media/arrow-up.svg": "/static-web-page-showcase/static/media/arrow-up.53851d8fa6bdce9cb29cee9ef0b2e743.svg",
-    "main.1c3755ba.css.map": "/static-web-page-showcase/static/css/main.1c3755ba.css.map",
-    "main.b49c1645.js.map": "/static-web-page-showcase/static/js/main.b49c1645.js.map",
+    "main.3bd94b78.css.map": "/static-web-page-showcase/static/css/main.3bd94b78.css.map",
+    "main.d89dd290.js.map": "/static-web-page-showcase/static/js/main.d89dd290.js.map",
     "787.58687ba0.chunk.js.map": "/static-web-page-showcase/static/js/787.58687ba0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c3755ba.css",
-    "static/js/main.b49c1645.js"
+    "static/css/main.3bd94b78.css",
+    "static/js/main.d89dd290.js"
   ]
 }
