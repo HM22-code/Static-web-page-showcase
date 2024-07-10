@@ -44,7 +44,7 @@ function Contact() {
 								<div class="relative mt-2.5">
 									<div class="absolute inset-y-0 left-0 flex items-center">
 									<label for="country" class="sr-only">Pays</label>
-									<select id="country" name="country" class="appearance-none h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#49a010] sm:text-sm">
+									<select id="country" name="country" autocomplete="off" class="appearance-none h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#49a010] sm:text-sm">
 										<option>FR</option>
 										<option>CA</option>
 										<option>EU</option>
@@ -63,12 +63,11 @@ function Contact() {
 								</div>
 							</div>
 							<div class="flex gap-x-4 sm:col-span-2">
-								<div class="flex h-6 items-center">
-									<input type="checkbox" />
-								</div>
 								<label class="text-sm leading-6 text-gray-600 dark:text-white" id="switch-1-label">
-									Accepter la
-									<a href="#" class="font-semibold text-[#49a010]"> politique de confidentialité</a>.
+									<div class="flex h-6 items-center">
+										<input type="checkbox" id="switch-1-label" autocomplete="off"/>
+										<p class="ml-2">Accepter la <a href="#" class="font-semibold text-[#49a010]"> politique de confidentialité</a>.</p>
+									</div>
 								</label>
 							</div>
 						</div>
